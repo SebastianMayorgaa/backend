@@ -7,7 +7,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./server.js",
-    "dev": "nodemon ./server.js"
+    "dev": "nodemon ./server.js",
+    "dataUsers":"node ./models/data/usersData.js",
+    "dataCars":"node ./models/data/carsData.js",
+    "dataCountries":"node ./models/data/countriesData",
+    "dataFruits":"node ./models/data/fruitsData",
+    "dataMovies":"node ./models/data/moviesData",
+    "dataVideogames":"node ./models/data/videogamesData",
+    "dataPlanets":"node ./models/data/planetsData"
   },
   "repository": {
     "type": "git",
@@ -22,7 +29,8 @@
   "homepage": "https://github.com/SebastianMayorgaa/backend#readme",
   "dependencies": {
     "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "express": "^4.21.2",
+    "mongoose": "^8.12.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
